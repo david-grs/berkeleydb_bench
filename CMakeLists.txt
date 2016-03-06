@@ -13,3 +13,6 @@ target_link_libraries(reader db_stl db_cxx)
 add_executable(kyoto_writer kyoto_writer.cpp)
 target_link_libraries(kyoto_writer kyotocabinet)
 
+add_executable(kyoto_reader kyoto_reader.cpp)
+target_link_libraries(kyoto_reader kyotocabinet)
+
